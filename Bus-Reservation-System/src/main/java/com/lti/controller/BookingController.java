@@ -26,7 +26,7 @@ public class BookingController {
 	 * TicketStatusConfirmation tsc) { bookingService.bookTicket(tsc); 
 	 * Status status  = new Status(); 
 	 * status.setMessage("Ticket booked successfully"); 
-	 * return status; 
+	 * return status ; 
 	 * }
 	 */
 	
