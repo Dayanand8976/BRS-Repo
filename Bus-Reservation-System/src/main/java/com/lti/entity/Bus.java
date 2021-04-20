@@ -32,6 +32,8 @@ public class Bus {
 	@JoinColumn(name="route_id") // should be route_id
 	private Route route;
 
+	private String busType;
+	
 	public int getBusNo() { 
 		return busNo;
 	}
@@ -79,6 +81,15 @@ public class Bus {
 	public void setRoute(Route route) {
 		this.route = route;
 	}
+
+	public String getBusType() {
+		return busType;
+	}
+
+	public void setBusType(String busType) {
+		this.busType = busType;
+	}
+	
 	
 	//bus entity
 	
